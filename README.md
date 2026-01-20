@@ -142,11 +142,13 @@ phyluce_align_concatenate_alignments \
 conda create -n IQTREE
 conda activate IQTREE
 conda install -c bioconda IQTREE
+```
 
 **Extended Selection + Partition Merging**
-
+```bash
 /path/to/IQTREE/bin/iqtree2 -s ./mafft-nexus-internal-trimmed-gblocks-clean-50p-raxml.phylip -p ./mafft-nexus-internal-trimmed-gblocks-clean-50p-raxml.charsets -nt AUTO -bb 1000 -bnni -alrt 1000 -m  MFP+MERGE
-
+```
 **Standard Model Selection**
-
+```bash
 /path/to/IQTREE/bin/iqtree2 -s ./mafft-nexus-internal-trimmed-gblocks-clean-50p-raxml.phylip -nt AUTO -bb 1000 -m  TEST
+```
