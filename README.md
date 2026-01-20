@@ -39,7 +39,7 @@ conda create -n phyluce
 conda activate phyluce
 conda install -c bioconda phyluce
 
-**Step 0a**
+## Step 0a
 
 phyluce_probe_run_multiple_lastzs_sqlite
 
